@@ -18,4 +18,4 @@ We can insert an image like this:
 
 or like this?
 
-<img src="../images/Lightning_over_Derwent_NAD.jpeg" alt="lightning" width="400">
+<img src="../assets/img/Lightning_over_Derwent_NAD.jpeg" alt="lightning" width="400">
