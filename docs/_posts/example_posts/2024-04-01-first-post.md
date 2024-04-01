@@ -14,7 +14,7 @@ This is to test whether posting works.
 
 We can insert an image like this:
 
-![lightning](../images/Lightning_over_Derwent_NAD.jpeg)
+![lightning](../assets/img/Lightning_over_Derwent_NAD.jpeg)
 
 or like this?
 
