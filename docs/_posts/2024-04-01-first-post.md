@@ -7,6 +7,8 @@ image: Lightning_over_Derwent_NAD.jpeg
 
 # First post
 
+Things im adding arent being added. why wont plotly show up?
+
 This is to test whether posting works.
 
 We can insert an image like this:
@@ -21,4 +23,8 @@ or like this?
 I wonder if I can also insert plotly plots?
 
 <iframe src="../assets/figs/plot.html" title="plotly plot"></iframe>
+
+Ill try this way also 
+
+{% include plot.html %}
 
