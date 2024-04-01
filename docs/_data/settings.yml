@@ -9,6 +9,7 @@ google-ID: ''
 menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing', url: 'writing.html'}
+- {name: 'Gallery', url: 'gallery.html'}
 - {name: 'Example posts', 'examples.html'}
 - {name: 'Contact', url: 'contact.html'}
 
