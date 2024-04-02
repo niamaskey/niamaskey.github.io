@@ -9,9 +9,13 @@ images:
   gallery-folder: /gallery/gallery01/
   gallery-name: gallery1
   gallery-date: July 2015
-- image_path: ../gallery/albums/alb02.jpg
-  gallery-folder: ../gallery/gallery02/
+- image_path: /gallery/albums/alb02.jpg
+  gallery-folder: /gallery/gallery02/
   gallery-name: gallery2
+  gallery-date: June 2015
+- image_path: /gallery/albums/Lightning_over_Derwent_NAD.jpeg
+  gallery-folder: /gallery/LightningGallery/
+  gallery-name: Lightning
   gallery-date: June 2015
 ---
 
@@ -41,7 +45,7 @@ images:
           <figure class="effect-selena">
             <header class='gallery-icon'>
 
-              <a href="{{ site.github.url }}/{{ image.gallery-folder }}">
+              <a href="{{ site.url }}/{{ image.gallery-folder }}">
                 <img src="{{ site.url }}/{{ site.baseurl }}/{{ image.image_path }}"></a>
 
             </header>
