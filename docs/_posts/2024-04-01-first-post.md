@@ -13,7 +13,7 @@ This is to test whether posting works.
 
 We can insert an image like this:
 
-![lightning](../assets/img/Lightning_over_Derwent_NAD.jpeg)
+![lightning](../gallery/archive/Lightning/Lightning_over_Derwent_NAD.jpeg)
 
 I wonder if I can also insert plotly plots?
 
