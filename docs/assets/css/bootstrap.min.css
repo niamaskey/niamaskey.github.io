@@ -7,6 +7,109 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+/* This is the bootstrap theme css theme, taken from the Photorama Jekyll theme
+This css file has been edited to make it fit with the Lagrange Jekyll theme.
+I have left most stuff in here because I dont know what it does. I have added other
+stuff in an attempt to make the page fit with the lagrange theme.
+
+Niam Askey-Doran
+
+Additions:
+  - Menu 
+  - Header 
+  - Site container*/
+
+/*
+  Site container
+*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 615px;
+}
+
+.content-container {
+  margin-bottom: 4rem;
+}
+
+/*48em*/
+
+@media (max-width: 768px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+  /*
+  Header
+*/
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 28rem;
+  margin-bottom: 4rem;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+.header a:hover {
+  color:black;
+}
+
+.header-title a {
+  font-size: 21.06px;
+  text-decoration: none;
+  color: #505050;
+  text-align: center
+}
+
+.header-subtitle {
+  color: #999;
+}
+
+/*
+  Menu
+  Added 2024-04-02 
+  NAD
+*/
+
+.menu {
+  padding-top: 0.5rem;
+  display: block;
+}
+
+.menu-content {
+  float: left;
+}
+
+.menu-content a {
+  color: #999;
+  font-size: 21.06px;
+  padding-right: 10px;
+}
+
+.social-icons {
+  float: right;
+}
+
+.social-icons a {
+  color: #999;
+  font-size: 1rem;
+}
+
+@media (max-width: 30em) {
+  .social-icons {
+    float: left;
+    padding-top: 0px;
+  }
+  .menu-content {
+    margin-bottom: 5px;
+  }
+}
+
+/*  */
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -327,7 +430,7 @@ th {
   }
 }
 
-/* Social list */
+/* Social list
 .social-icons {
   margin: 0;
   padding: 0 0 48px;
@@ -1429,7 +1532,7 @@ th {
 
 .glyphicon-menu-up:before {
   content: "\e260"
-}
+} */
 
 * {
   -webkit-box-sizing: border-box;
@@ -1839,10 +1942,17 @@ a.bg-danger:hover {
   background-color: #e4b9b9
 }
 
-.page-header {
+/* .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 60px 0 20px;
   border-bottom: 1px solid #eee
+} */
+
+.page-header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 ol,
@@ -7748,7 +7858,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
+  background-color: #0009;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px
