@@ -56,11 +56,11 @@ Additions:
 
 /*48em*/
 
-/* @media (max-width: 615) {
+@media (min-width: 615px) {
   .container {
     width: 90vw;
   }
-} */
+}
 
   /*
   Header
