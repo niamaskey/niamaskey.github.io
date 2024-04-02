@@ -1,27 +1,30 @@
 ---
 layout: default
+title: Example Posts
 permalink: /examples
 ---
 This is a test to see whether I can filter posts by category
 
-{% for post in site.example_posts %}
+{% for post in site.posts %}
+    {% if post.path contains 'example_posts' %}
 
-<div class="posts-container">
-    <h1>
-        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
-    {% if post.image %}
-    <div class="thumbnail-container">
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
-    </div>
+        <div class="posts-container">
+            <h1>
+                <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+            </h1>
+            {% if post.image %}
+            <div class="thumbnail-container">
+                <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+            </div>
+            {% endif %}
+            <p>
+                {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+                <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i
+                        class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+            </p>
+        </div>
+
     {% endif %}
-    <p>
-        {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i
-                class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-    </p>
-</div>
-
 {% endfor %}
 <!-- Pagination links -->
 <div class="pagination">
