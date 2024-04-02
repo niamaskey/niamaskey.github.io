@@ -5,3 +5,25 @@ permalink: /test_page
 ---
 
 This is just to see whether I can make a page from scratch, because my gallary page is getting a 404.
+
+site.github.url is "{{site.github.url}}"
+
+site.url is "{{site.url}}"
+
+site.baseurl is "{{site.baseurl}}"
+
+
+<body class="gallery">
+
+    <section id="content" role="main">
+        <div class="wrapper">
+            <h2>{{page.title}}</h2>
+
+            <div class="gallery masonry-gallery">
+
+                {% for image in page.images %}
+                <img src="../gallery/">
+            </div>
+        </div>
+    </section>
+</body>
