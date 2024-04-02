@@ -2,7 +2,7 @@
 layout: post
 title:  "First post"
 date:   2024-04-01 4:00
-image: Lightning_over_Derwent_NAD.jpeg
+image: /gallery/archive/Lightning/Lightning_over_Derwent_NAD.jpeg
 ---
 
 # First post
