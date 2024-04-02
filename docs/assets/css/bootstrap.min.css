@@ -19,49 +19,72 @@ Additions:
   - Header 
   - Site container*/
 
-/*
+/* /*
   Site container
 */
 
+/* body {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  color: #505050;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 30em) {
+  body {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  body h1 {
+    font-size: 1.5rem;
+  }
+} */
+
+/* h1{
+  font-size: 2rem;
+}
+*/
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 615px;
 }
-
+/*
 .content-container {
   margin-bottom: 4rem;
 }
 
 /*48em*/
 
-@media (max-width: 768px) {
+/* @media (max-width: 615) {
   .container {
     width: 90vw;
   }
-}
+} */
 
   /*
   Header
 */
+  .header {
+    margin-top: 8px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 16.6rem;
+    padding-right: 16.25rem;
+    margin-bottom: 4rem;
+    font-family: "Quattrocento Sans", sans-serif;
+  }
 
-.header {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 28rem;
-  margin-bottom: 4rem;
-  font-family: "Quattrocento Sans", sans-serif;
-}
 
 .header a:hover {
   color:black;
 }
 
 .header-title a {
-  font-size: 21.06px;
+  font-size: 2rem;
   text-decoration: none;
   color: #505050;
-  text-align: center
+  font-weight: 700;
 }
 
 .header-subtitle {
@@ -76,6 +99,8 @@ Additions:
 
 .menu {
   padding-top: 0.5rem;
+  /* padding-left: 9.0277em;
+  padding-right: 9.0277em; */
   display: block;
 }
 
@@ -85,7 +110,7 @@ Additions:
 
 .menu-content a {
   color: #999;
-  font-size: 21.06px;
+  font-size: 1rem;
   padding-right: 10px;
 }
 
@@ -106,7 +131,7 @@ Additions:
   .menu-content {
     margin-bottom: 5px;
   }
-}
+}   
 
 /*  */
 
@@ -198,19 +223,19 @@ dfn {
   font-style: italic
 }
 
-h1 {
+/* h1 {
   margin: .67em 0;
   font-size: 2em
-}
+} */
 
 mark {
   color: #000;
   background: #ff0
 }
 
-small {
+/* small {
   font-size: 80%
-}
+} */
 
 sub,
 sup {
@@ -1546,7 +1571,7 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box
 }
-
+/* 
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
@@ -1558,7 +1583,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff
-}
+} */
 
 button,
 input,
@@ -1660,7 +1685,7 @@ hr {
   cursor: pointer
 }
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 .h4,
@@ -1676,9 +1701,9 @@ h6 {
   font-weight: 500;
   line-height: 1.1;
   color: inherit
-}
+} */
 
-.h1 .small,
+/* .h1 .small,
 .h1 small,
 .h2 .small,
 .h2 small,
@@ -1705,9 +1730,9 @@ h6 small {
   font-weight: 400;
   line-height: 1;
   color: #777
-}
+} */
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 h1,
@@ -1730,7 +1755,7 @@ h2 small,
 h3 .small,
 h3 small {
   font-size: 65%
-}
+} */
 
 .h4,
 .h5,
@@ -1757,20 +1782,20 @@ h6 small {
   font-size: 75%
 }
 
-.h1,
+/* .h1,
 h1 {
   font-size: 36px
-}
+} */
 
 .h2,
 h2 {
   font-size: 30px
 }
 
-.h3,
+/* .h3,
 h3 {
   font-size: 24px
-}
+} */
 
 .h4,
 h4 {
@@ -1804,10 +1829,10 @@ p {
   }
 }
 
-.small,
+/* .small,
 small {
   font-size: 85%
-}
+} */
 
 .mark,
 mark {
@@ -1948,12 +1973,12 @@ a.bg-danger:hover {
   border-bottom: 1px solid #eee
 } */
 
-.page-header {
+/* .page-header {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
   font-family: "Quattrocento Sans", sans-serif;
-}
+} */
 
 ol,
 ul {
