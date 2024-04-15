@@ -65,7 +65,7 @@ Additions:
   /*
   Header
 */
-  .header {
+  /* .header {
     margin-top: 8px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -73,7 +73,7 @@ Additions:
     padding-right: 16.25rem;
     margin-bottom: 4rem;
     font-family: "Quattrocento Sans", sans-serif;
-  }
+  } */
 
 
 .header a:hover {
@@ -455,7 +455,7 @@ th {
   }
 }
 
-/* Social list
+/* Social list */
 .social-icons {
   margin: 0;
   padding: 0 0 48px;
@@ -1557,7 +1557,7 @@ th {
 
 .glyphicon-menu-up:before {
   content: "\e260"
-} */
+}
 
 * {
   -webkit-box-sizing: border-box;
