@@ -1,5 +1,5 @@
 ---
-layout: gallery_page
+layout: gallery_page_custom
 title: "ALBUMS"
 description: "archive"
 active: gallery
@@ -42,52 +42,52 @@ images:
    gallery-name: gallery9
    gallery-date: November 2014
 ---
-
 <html class="no-js" lang="en">
+
 <head>
-	<meta content="charset=utf-8">
-    <link rel="stylesheet" href="{{ "/css/selena.css" | prepend: site.baseurl }}">
+  <meta content="charset=utf-8">
+  <link rel="stylesheet" href="{{ " /css/selena.css" | prepend: site.baseurl }}">
 </head>
 
 
-    <body class="gallery">
- 
-	<section id="content" role="main">
-		<div class="wrapper">
-	
-			<h2>{{page.title}}</h2>
-			
-			<!-- Gallery __-->
-			<div class="gallery masonry-gallery">
-				
-{% for image in page.images %}  	
+<body class="gallery">
 
-	               <figure class="gallery-item">
-                         <figure class="effect-selena">
-					<header class='gallery-icon'>
-		       
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+  <section id="content" role="main">
+    <div class="wrapper">
 
-					</header>	
-					<figcaption class='gallery-caption'>
-						<div class="entry-summary">
-							<h3>{{image.gallery-name}}</h3>
-							<p>{{image.gallery-date}}</p>
-						</div>
-					</figcaption>
-                       </figure>
-				</figure>
-							
-{% endfor %}		
-				
-			</div>
-			
-		</div><!-- END .wrapper -->
-	</section>
+      <h2>{{page.title}}</h2>
+
+      <!-- Gallery __-->
+      <div class="gallery masonry-gallery">
+
+        {% for image in page.images %}
+
+        <figure class="gallery-item">
+          <figure class="effect-selena">
+            <header class='gallery-icon'>
+      
+              <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+                <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+
+            </header>
+            <figcaption class='gallery-caption'>
+              <div class="entry-summary">
+                <h3>{{image.gallery-name}}</h3>
+                <p>{{image.gallery-date}}</p>
+              </div>
+            </figcaption>
+          </figure>
+        </figure>
+
+        {% endfor %}
+
+      </div>
+
+    </div><!-- END .wrapper -->
+  </section>
 
 
-<br>
+  <br>
 <h6><p>Image Source: <a href="https://unsplash.com/photos/YOT6kS8YtEA/">Unsplash</a></p></h6>
 
 <!-- jQuery -->    
