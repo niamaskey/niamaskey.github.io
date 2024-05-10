@@ -12,6 +12,8 @@
   margin-bottom: 4rem;
 }
 
+.plot-container.plotly { z-index: 0; width: 102.2%; margin: 0 0 1em 0; position: relative; right: 0 !important; }
+
 /*48em*/
 
 @media (max-width: $container-responsive-width) {

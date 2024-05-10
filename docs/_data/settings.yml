@@ -10,10 +10,9 @@ menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing', url: 'writing.html'}
 - {name: 'Gallery', url: 'gallery.html'}
-- {name: 'Example posts', url: 'examples.html'}
-- {name: 'Test page', url: 'test_page.html'}
 - {name: 'Contact', url: 'contact.html'}
-
+# - {name: 'Example posts', url: 'examples.html'}
+# - {name: 'Test page', url: 'test_page.html'}
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github',     link: 'https://github.com/niamaskey'}
