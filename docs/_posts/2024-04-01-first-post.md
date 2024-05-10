@@ -2,7 +2,7 @@
 layout: post
 title:  "First post"
 date:   2024-04-01 4:00
-image: /gallery/archive/Lightning/Lightning_over_Derwent_NAD.jpeg
+image: gallery/archive/Lightning/Lightning_over_Derwent_NAD.jpeg
 ---
 
 # First post
@@ -17,5 +17,5 @@ We can insert an image like this:
 
 I wonder if I can also insert plotly plots?
 
-{% include plot.html %}
+{% include assets/plot.html %}
 
