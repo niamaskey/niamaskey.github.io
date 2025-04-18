@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from plotly.offline import plot
 import re
 
-localhost=True
+localhost=False
 
 if localhost:
     base_url = 'http://127.0.0.1:4000'
