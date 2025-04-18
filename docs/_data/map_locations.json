@@ -2,8 +2,8 @@
     "locations": [
         {
             "name": "Reynolds Falls",
-            "page name": "",
-            "page title": "",
+            "page name": "2024-03-16-Reynolds-Falls.md",
+            "page title": "Reynolds Falls",
             "coordinates": "(-41.6001, 146.5015)",
             "page url": ""
         },
@@ -12,6 +12,20 @@
             "page name": "2024-04-27-Mt-Anne-via-Pandani-Shelf.md",
             "page title": "Mt Anne via North East Ridge",
             "coordinates": "(-42.93415, 146.43023)",
+            "page url": ""
+        },
+        {
+            "name": "Bunger Hills",
+            "page name": "2025-01-14-Bunger-Hills.md",
+            "page title": "Bunger Hills",
+            "coordinates": "(-66.2501, 100.6039)",
+            "page url": ""
+        },
+        {
+            "name": "Walls of Jerusalem",
+            "page name": "2021-01-01-Walls-of-Jerusalem.md",
+            "page title": "Walls of Jerusalem",
+            "coordinates": "(-41.868889, 146.258611)",
             "page url": ""
         }
     ]

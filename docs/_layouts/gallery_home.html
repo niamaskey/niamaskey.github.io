@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include gallery_head.html %}
+
+
+<body>
+  <div class="container">
+    <!-- <div class="row"> -->
+    {% include header.html %}
+  </div>
+
+  <!-- <div class="container"> -->
+  <!-- <div class="row"> -->
+
+    <body class="gallery">
+      <section id="content" role="main">
+        <div class="wrapper">
+
+          <!-- <h2>{{page.title}}</h2> -->
+
+          <!-- Gallery __-->
+          <div class="gallery masonry-gallery">
+
+            {% for image in page.images %}
+
+            <figure class="gallery-item">
+              <figure class="effect-selena">
+                <header class='gallery-icon'>
+
+                  <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+                    <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+
+                </header>
+                <figcaption class='gallery-caption'>
+                  <div class="entry-summary">
+                    <h3>{{image.gallery-name}}</h3>
+                    <p>{{image.gallery-date}}</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </figure>
+
+            {% endfor %}
+
+            <!-- </div> -->
+          </div>
+        </div><!-- END .wrapper -->
+
+      </section>
+<!-- 
+      <br>
+      <h6>
+        <p>Image Source: <a href="https://unsplash.com/photos/YOT6kS8YtEA/">Unsplash</a></p>
+      </h6> -->
+
+      {% include footer.html %}
+
+      {% include gallery_includes.html %}
+    </body>
+
+</body>
+
+</html>

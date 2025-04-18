@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: post
 title: Reynolds Falls
 date_walked: 2024-03-16
+author: Niam Askey-Doran
+tags: [Hikes]
 permalink: 
-image: gallery/archive/Reynolds_falls/ReynoldsFall.jpg
+image: gallery/album_covers/ReynoldsFall.jpg
 ---
+
+{% include_relative assets/maps/Reynolds_falls.html %}
