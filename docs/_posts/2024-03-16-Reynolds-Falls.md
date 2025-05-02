@@ -5,7 +5,7 @@ date_walked: 2024-03-16
 author: Niam Askey-Doran
 tags: [Hikes]
 permalink: 
-image: gallery/album_covers/ReynoldsFall.jpg
+image: gallery/album_covers/ReynoldsFall.JPG
 ---
 
 {% include_relative assets/maps/Reynolds_falls.html %}
