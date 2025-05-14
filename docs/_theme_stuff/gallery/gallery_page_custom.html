@@ -1,0 +1,32 @@
+---
+---
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<head>
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/galleries.css">
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/gallery_layout.css">
+
+</head>
+<body>
+  <div class="container">
+    {% include header.html %}
+    <h1>
+      {{ page.title }}
+      THIS IS SOME WORDS
+    </h1>
+
+
+
+    <!-- Main Content -->
+    <div class="gallery-container">
+      <div class="row">
+      {{ content }}
+    </div>
+
+
+  </div>
+  {% include footer.html %}
+</body>
+</html>
