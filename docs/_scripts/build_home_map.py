@@ -38,7 +38,7 @@ for i in range(len(df)):
 
 
     data.append(
-        go.Scattermapbox(
+        go.Scattermap(
             lat = [lat],
             lon = [lon],
             mode = "markers",
@@ -55,12 +55,12 @@ fig = go.Figure(
     data=data
 )
 
-fig.update_layout(mapbox_style="outdoors", 
-                  mapbox_zoom=5.75, 
-                  mapbox_center_lon = 146.5015, 
-                  mapbox_center_lat = -41.6001,
-                  margin={"r":5,"t":5,"l":5,"b":5},
-                  mapbox_accesstoken=token,
+fig.update_layout(map_style="https://tiles.stadiamaps.com/styles/stamen_terrain.json", 
+                  map_zoom=5.75, 
+                  map_center_lon = 146.5015, 
+                  map_center_lat = -41.6001,
+                  margin={"r":5,"t":5,"l":5,"b":60},
+                #   mapbox_accesstoken=token,
                   showlegend=False,
                   width=800,
                   height=600)
