@@ -75,6 +75,6 @@ As the sun dropped so did the temperature. The cairned peak of Cathedral mountai
 ![](/assets/imgs/2025-05-03-cathedral-mountain/Myrtle_lake.jpg)
 *Myrtle Lake*
 
-{% include_relative assets/maps/cathedral_mountain.html %}
+{% include_relative assets/maps/Cathedral_Mountain.html %}
 
 
