@@ -5,7 +5,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 920px;
+  max-width: 1080px;
+  width: auto;
 }
 
 .content-container {

@@ -48,10 +48,9 @@ It took another hour or two to ascend to cathedral mountain where we were reward
 The cairned peak of Cathedral mountain was about 100m from our camp spot. From the top we could look directly down into the valley below through which the Mersey river runs. Looking closely we could also spot the Kia Ora hut and the overland track. It was my first view of Mt Ossa and the Pelions up close, and it was magical to see so many places I hope to visit in front of us. The mountains and lakes around the region we were in follow a clear theme, but perhaps Cathedral Mountain is the most appropriately named. From the top it feels as though you are sat at the entrance of a grand cathedral spanning to the horizon.
 
 ![](/assets/imgs/2025-05-03-cathedral-mountain/camp_spot.jpg)
-As the sun dropped so did the temperature. The cairned peak of Cathedral mountain is unsheltered and the wind picked up, adding chill to the cold air. 
+As the sun dropped so did the temperature. The cairned peak of Cathedral mountain is unsheltered and the wind picked up, adding chill to the cold air. We stayed up long enough to see the stars come out before rugging up and going to bed.
 
-
-
+The next morning we set off at around 9:30, after a porridge breakfast and watching the sun rise over Moun Ragoona. Today we hoped to reach Lake Meston where we would stay for night two. The plan was to head South East off track along the Cathedral Mountain Massif towards Convent Hill, and re-join the Jackson Creek trail at Cloister Lagoon. The route was around 19km, and we had no idea how much bush-bashing might lie ahead of us.
 ![](/assets/imgs/2025-05-03-cathedral-mountain/Rogoona_in_cloud.jpg)
 
 ![](/assets/imgs/2025-05-03-cathedral-mountain/Bernd_and_James.jpg)
@@ -74,7 +73,7 @@ As the sun dropped so did the temperature. The cairned peak of Cathedral mountai
 
 ![](/assets/imgs/2025-05-03-cathedral-mountain/Myrtle_lake.jpg)
 *Myrtle Lake*
-
-{% include_relative assets/maps/Cathedral_Mountain.html %}
-
+<div style="display: flex; justify-content: center; margin-bottom:60px;">
+    {% include_relative assets/maps/Cathedral_Mountain.html %}
+</div>
 
