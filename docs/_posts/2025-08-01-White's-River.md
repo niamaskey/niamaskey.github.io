@@ -73,19 +73,19 @@ We dug a trench with bench seating around the edge and a sunken foot well in the
 
 ![Igloo Kitchen](/assets/imgs/2025-08-01-White's-River/igloo_home.jpg)
 
-![Sunrise at Whites](/gallery/album_images/Kosciuszko/sunrise_at_whites.jpg)
+![Sunrise at Whites](/gallery/album_images/Kosciuszko/sunrise_at_whites.JPG)
 
 We took it slow the next morning, packed, and began the walk home. Given that we had eaten our spuds and sausages, we now had an empty sled begging to be used...
 
 It took a couple of runs to get the technique right, as this small flimsy sled wasn't designed to by ridden. Eventually though, with Raph carrying my pack, I was able to ride the sled down the hills at the cost of only a few scratches and bruises. 
 
-![Chapter Lake](/assets/imgs/2025-08-01-White's-River/cool_runnings.jpg)
+![Cool runnings](/assets/imgs/2025-08-01-White's-River/cool_runnings.JPG)
 
 *Sledding back home, next stop: Winter Olympics*
 
 None of us were ready to go home by the end of it, which is the sign of a great trip. For most of us it was a first time show-shoeing, first time igloo building, and the first time in mountain environments, and we all agreed to make this a yearly occurrence (at minimum).
 
-![Chapter Lake](/assets/imgs/2025-08-01-White's-River/adventure_done.jpg)
+![Finale](/assets/imgs/2025-08-01-White's-River/adventure_done.JPG)
 
 
 <div align='center'>
