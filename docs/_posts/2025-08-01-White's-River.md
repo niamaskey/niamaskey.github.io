@@ -34,7 +34,7 @@ We set up our hypermid tent in the snow. We were unsure how the tent would hold 
 
 Dinner for our first night was sausages and potatoes, cooked in the hut fireplace. Raph, who was skiing rather than snowshoeing, had generously (foolishly?) decided to tow a small sled with food and wood so that we could enjoy this luxury dinner. Walking into the hut with a kilo of potatoes and a dozen sausages was obviously an odd sight for the other hut-inhabitants, drawing a few comments and turning some heads. An older man who was clearly a veteran old-school backcountry goer sat next to the fireplace. He looked disapprovingly at our choice of dinner and the interruption it required of his prime location in front of the fire, but his tune quickly changed after trying a couple of roast spuds. 
 
-![Chef Raph](/assets/imgs/2025-08-01-White's-River/chef_raph.jpg)
+![Chef Raph](/assets/imgs/2025-08-01-White's-River/Chef_raph.jpg)
 *Raph cooking spuds and sausages in the fireplace*
 
 ![Hypermid](/assets/imgs/2025-08-01-White's-River/tent_in_snow.jpg)
