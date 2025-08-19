@@ -1,5 +1,7 @@
 # Site Build Settings
 
+hide_post_share:	True
+
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
