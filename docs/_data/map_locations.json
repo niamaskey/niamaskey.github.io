@@ -41,6 +41,13 @@
             "page title": "White's River",
             "coordinates": "(-36.31402, 148.3930)",
             "page url": ""
+        },
+        {
+            "name": "test",
+            "page name": "",
+            "page title": "test",
+            "coordinates": "(-41.2, 146.132234)",
+            "page url": ""
         }
     ]
 }
