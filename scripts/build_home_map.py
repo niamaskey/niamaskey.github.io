@@ -4,15 +4,23 @@ from os.path import join
 import plotly.graph_objects as go 
 from plotly.offline import plot
 import re
+from pathlib import Path
+import socket
 
-localhost=True
+hostname = socket.gethostname()
+host_addr=socket.gethostbyaddr(socket.gethostname())[0]
 
-if localhost:
+root_dir = Path.cwd().parent.absolute()
+
+print(hostname, host_addr, root_dir)
+
+if host_addr=='locahost':
     base_url = 'http://127.0.0.1:4000'
 else:
     base_url = 'https://niamaskey.github.io/'
 
-save_dir = r'/Users/nraskey/Documents/Personal/Websites/my-site/niamaskey.github.io/docs/_includes/assets'
+save_dir = join(root_dir, 'docs/_includes/assets')
+
 token = 'pk.eyJ1IjoibmlhbWFza2V5IiwiYSI6ImNsc2xhZGFucjBienYyanBkbWV2amZsbTQifQ.KBD45j64TKi2gmmTTqS8ag'
 
 data = r'/Users/nraskey/Documents/Personal/Websites/my-site/niamaskey.github.io/docs/_data/map_locations.json'
