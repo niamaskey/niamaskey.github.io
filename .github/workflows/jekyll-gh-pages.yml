@@ -36,7 +36,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run script
-        run: python scripts/build_home_map.py
+        working-directory: ./scripts
+        run: python build_home_map.py
   # Build job
   build:
     runs-on: ubuntu-latest
