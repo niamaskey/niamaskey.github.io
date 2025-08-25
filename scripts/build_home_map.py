@@ -23,7 +23,7 @@ save_dir = join(root_dir, 'docs/_includes/assets')
 
 token = 'pk.eyJ1IjoibmlhbWFza2V5IiwiYSI6ImNsc2xhZGFucjBienYyanBkbWV2amZsbTQifQ.KBD45j64TKi2gmmTTqS8ag'
 
-data = r'/Users/nraskey/Documents/Personal/Websites/my-site/niamaskey.github.io/docs/_data/map_locations.json'
+data = join(root_dir, 'docs/_data/map_locations.json')
 
 with open(data) as f:
     location_data = json.load(f)['locations']
