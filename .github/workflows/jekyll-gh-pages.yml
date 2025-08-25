@@ -24,7 +24,22 @@ concurrency:
 jobs:
 
   # Script jobs
-  run-script:
+  # run-script:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #     - name: Setup Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.9'
+  #     - name: Install dependencies
+  #       run: pip install -r requirements.txt
+  #     - name: Run script
+  #       working-directory: ./scripts
+  #       run: python build_home_map.py
+  # Build job
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -38,12 +53,6 @@ jobs:
       - name: Run script
         working-directory: ./scripts
         run: python build_home_map.py
-  # Build job
-  build:
-    # runs-on: ubuntu-latest
-    steps:
-      # - name: Checkout
-      #   uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
