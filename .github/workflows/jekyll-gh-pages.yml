@@ -28,9 +28,9 @@ defaults:
 jobs:
 
   # Script jobs
-  run-scripts:
-    runs-on: ubuntu-latest
-    steps:
+  # run-scripts:
+  #   runs-on: ubuntu-latest
+  #   steps:
 
       # - name: Commit changes
       #   uses: stefanzweifel/git-auto-commit-action@v5
