@@ -28,7 +28,7 @@ defaults:
 jobs:
 
   # Script jobs
-  run-script:
+  run-scripts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -42,8 +42,13 @@ jobs:
       - name: Run script
         working-directory: ./scripts
         run: python build_home_map.py
+      - name: Commit changes
+        run: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated commit for home map"
   # Build job
   build:
+    needs: run-scripts
     runs-on: ubuntu-latest
     defaults:
       run:
