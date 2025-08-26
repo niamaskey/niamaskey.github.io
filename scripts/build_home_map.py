@@ -75,12 +75,13 @@ fig.update_layout(map_style="https://tiles.stadiamaps.com/styles/stamen_terrain.
 
 
 # Get HTML representation of plotly.js and this figure
-plot_div = plot(fig, output_type='div', include_plotlyjs=True)
+plot_div = plot(fig, output_type='div', include_plotlyjs=False)
 
 # Get id of html div element that looks like
 # <div id="301d22ab-bfba-4621-8f5d-dc4fd855bb33" ... >
 res = re.search('<div id="([^"]*)"', plot_div)
 div_id = res.groups()[0]
+
 
 # Build JavaScript callback for handling clicks
 # and opening the URL in the trace's customdata 

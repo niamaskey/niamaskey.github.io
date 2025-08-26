@@ -5,11 +5,11 @@
 <body>
   <div class="container">
     {% include header.html %}
-    {% if page.title=='Home' %}
+    {% if page.title == 'Home' %}
     <div class="plot-container plotly", style="display: flex; justify-content: center; margin-bottom:60px;">
       {% include assets/home_map.html %}
     </div>
-  {% endif %}
+    {% endif %}
     <div class="content-container">
       {{ content }}
     </div>
