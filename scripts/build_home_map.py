@@ -21,8 +21,6 @@ else:
 
 save_dir = join(root_dir, 'docs/_includes/assets')
 
-token = 'pk.eyJ1IjoibmlhbWFza2V5IiwiYSI6ImNsc2xhZGFucjBienYyanBkbWV2amZsbTQifQ.KBD45j64TKi2gmmTTqS8ag'
-
 data = join(root_dir, 'docs/_data/map_locations.json')
 
 with open(data) as f:
@@ -63,8 +61,8 @@ fig = go.Figure(
     data=data
 )
 
-fig.update_layout(map_style="https://tiles.stadiamaps.com/styles/stamen_terrain.json", 
-                  map_zoom=5.75, 
+fig.update_layout(map_style='outdoors',
+                  map_zoom=5.75,
                   map_center_lon = 146.5015, 
                   map_center_lat = -41.6001,
                   margin={"r":5,"t":5,"l":5,"b":60},
