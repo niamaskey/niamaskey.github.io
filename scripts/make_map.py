@@ -6,8 +6,6 @@ from plotly.offline import plot
 import re
 from geopandas import read_file, GeoDataFrame
 import gpxpy
-
-token = 'pk.eyJ1IjoibmlhbWFza2V5IiwiYSI6ImNsc2xhZGFucjBienYyanBkbWV2amZsbTQifQ.KBD45j64TKi2gmmTTqS8ag'
 #%%
 
 
